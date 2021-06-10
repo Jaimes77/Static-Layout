@@ -124,6 +124,19 @@ ul.navbar a:hover {
     color: white;
 }
 
+.arrowleft {
+    position: absolute;
+    top: 30%;
+    color: white;
+}
+
+.arrowright {
+    position: absolute;
+    top: 30%;
+    left: 99%;
+    color: white;
+}
+
 .button-0{
     position: absolute;
     background-color: turquoise;
@@ -182,38 +195,6 @@ ul.navbar a:hover {
     font-size: 20px;
     color: white;
 }
-
-.arrowleft {
-    position: absolute;
-    top: 30%;
-}
-
-/* .arrow {
-    position: absolute;
-    top: 0;
-    display: block;
-    width: 50px;
-    height: 100%;
-    background: url(https://www.google.com/search?q=chevron+left+icon&rlz=1C1CHBF_enUS953US955&sxsrf=ALeKk0017ArUH-sOoA3tQkr5W7mbmVOpMw:1623274819172&tbm=isch&source=iu&ictx=1&fir=OKOFi7LZyJLGYM%252C0O36tEz7PWRaxM%252C_&vet=1&usg=AI4_-kQZGBml2W3XmanjupCvw5J4NiJPwA&sa=X&ved=2ahUKEwi4n-D3wYvxAhUDVs0KHRB9DN8Q9QF6BAgKEAE#imgrc=OKOFi7LZyJLGYM) 50% 50% / 20px no-repeat;
-} */
-
-/* .arrow-prev {
-    left: 0
-}
-
-.arrow-next {
-    right: 0;
-    -webkit-transform: rotate(180deg);
-            transform: rotate(180deg);
-
-}
-
-@media (max-width: 480px) {
-    .arrow, .arrow {
-      background-size: 10px;
-      background-position: 10px 50%;
-    }
-} */
 
   [id^="target-item"] {
     display: none;
