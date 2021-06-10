@@ -7,16 +7,16 @@
 }
 
 .logo {
-    padding-top: 25px;
+    padding-top: 40px;
 }
 
 .nav1 {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;    
+    justify-content: space-around; 
 }
 
-.fa {
+.fab {
   color: gray;
   padding: 10px;
   padding-top: 30px;
@@ -24,7 +24,7 @@
   text-decoration: none;
 }
 
-.fa:hover {
+.fab:hover {
     color: lightgray;
 }
 
@@ -55,21 +55,21 @@ ul.socbar li {
 
 .navlinks {
     color: gray;
-    padding: 5px;
+    padding: -20px;    
     font-size: 10px;
-    font-family: 'DIN Next W01 Regular", Helvetica, Arial, sans-serif';
     text-align: center;
 }
 
 .navbar {
-    padding-top:10px;
+padding-top: 10px;
 }
 
 ul.navbar li {
     padding: 10px;
     display: inline-block;
     border: solid 1px gray;
-    font-size: 20px;
+    font-family: 'DIN Next W01 Regular", Helvetica, Arial, sans-serif';
+    font-size: 15px;
     color:gray;
 }
 
@@ -82,7 +82,7 @@ ul.navbar a:hover {
     color:lightgray;
 }
 
-.nav3 {   
+.mainbanner {   
     display: flex;
     justify-content: center; 
     border: solid 1px black;
